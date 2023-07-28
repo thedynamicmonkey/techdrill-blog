@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "AI can be danger!!",
+      "body": "\"AI is both a blessing and a potential danger. We must proceed with caution and ensure its ethical development. Exciting times ahead, but we can't afford to be complacent! #AI #EthicsFirst\"",
+      "author": "@elonmusk",
+      "id": 12
+    },
+    {
+      "title": "AI is the core of innovations at Google",
+      "body": " \"AI is at the core of our innovations at Google. We're committed to advancing AI while prioritizing user privacy and data security. Building for everyone, responsibly. #GoogleAI #PrivacyMatters\"",
+      "author": "@sundarpichai",
+      "id": 14
+    },
+    {
+      "title": "AI will change the job market",
+      "body": "\"Thrilled to witness the power of AI in transforming traditional industries. Embracing AI-driven automation can lead to increased efficiency and new opportunities for growth. #AIRevolution #FutureTech\"",
+      "author": "@samaltman",
+      "id": 15
+    }
+  ]
+}

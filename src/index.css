@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+  color: #f1356d;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #f1356d;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+  position: relative;
+}
+
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+.blog-preview__username {
+  margin-bottom: 6px;
+}
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+.edit {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: white;
+}
+
+.edit i {
+  color: #f1356d;
+  font-size: 22px;
+}
+
+.blog-preview__like-dislike {
+  margin-top: 1rem;
+  max-width: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog-preview__like-dislike button {
+  border: 0;
+  cursor: pointer; 
+}
+
+.like {
+  background-color: white;
+  font-size: 20px;
+}
+
+.dislike {
+  background-color: white;
+  font-size: 20px;
+}
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+
+.blog-details div {
+  margin: 20px 0;
+}
+
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+}
+
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100px;
+}
+
+/* Sign In & Sign Up */
+.signup {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 400px;
+  position: relative;
+  border: 1px solid #e8e2e2;
+}
+
+.signin {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 400px;
+  position: relative;
+  border: 1px solid #e8e2e2;
+}
+
+.heading-title {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.heading-title__header {
+  color: #f1356d;
+}
+
+.form-data__heading {
+  margin-bottom: 1rem;
+  width: 18rem;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
+
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.tick {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: center;
+  font-size: 13px;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  position: relative;
+  max-width: 288px;
+}
+
+#checkbox {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.same {
+  width: 18rem;
+  height: 2rem;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.btn {
+  background-color: #f1356d;
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+  padding: 6px;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.para {
+  width: 18rem;
+  font-size: 12px;
+}
+
+.para a {
+  text-decoration: none;
+  color: blue;
+}
+
+#texto {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 2rem;
+  max-width: 288px;
+}
